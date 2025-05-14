@@ -128,7 +128,8 @@ namespace APICsv.Controllers
 
             }
         }
-           private ActionResult<Animal> BadRequest(object message)
+
+        private ActionResult<Animal> BadRequest(object message)
         {
             throw new NotImplementedException();
         }
